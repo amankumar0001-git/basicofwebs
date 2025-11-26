@@ -1,10 +1,73 @@
-*{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-list-style: none;
-align-items: center;
-justify-content: center;
-text-decoration: none;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fc;
+  color: #222;
+  text-align: center;
 }
 
+header {
+  padding: 40px 20px;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #4c70ff;
+}
+
+h1 {
+  margin-top: 15px;
+  font-size: 34px;
+}
+
+.tagline {
+  color: #4c70ff;
+  font-size: 18px;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.skills {
+  background: #fff;
+}
+
+.skill-box {
+  display: inline-block;
+  background: #4c70ff;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 20px;
+  margin: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.contact button {
+  background: #4c70ff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 26px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.contact button:hover {
+  background: #3858e0;
+}
+
+footer {
+  background: #242424;
+  color: #ddd;
+  padding: 18px;
+  margin-top: 30px;
+}
